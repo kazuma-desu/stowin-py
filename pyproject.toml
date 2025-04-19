@@ -7,7 +7,7 @@ name = "stowin-py"
 version = "0.1.0"
 description = "A GNU Stow alternative in Python"
 readme = "README.md"
-authors = [{ name = "Your Name", email = "kmuthish@gmail.com" }]
+authors = [{ name = "Kavintha Kulasingham", email = "kmuthish@gmail.com" }]
 license = { file = "LICENSE" }
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -19,7 +19,7 @@ dependencies = ["click>=8.0.0", "tqdm>=4.65.0"]
 requires-python = ">=3.9"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/stowin-py"
+Homepage = "https://github.com/kazuma-desu/stowin-py"
 
 [project.scripts]
 stowin = "stowin_py.cli:cli"
